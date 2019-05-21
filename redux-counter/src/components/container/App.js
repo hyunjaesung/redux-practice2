@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import Counter from "../presenter/Counter";
+import CounterContainer from "./CounterContainer";
 
 class App extends Component {
   render() {
-    return <Counter />;
+    return (
+      <div>
+        <CounterContainer />
+      </div>
+    );
   }
 }
 
