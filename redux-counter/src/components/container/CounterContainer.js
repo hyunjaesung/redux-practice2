@@ -12,8 +12,8 @@ export const getRandomColor = () => {
 
 // store의 state 값을 props로 반환
 const mapStateToProps = state => ({
-  color: state.color,
-  number: state.number
+  color: state.colorData.color,
+  number: state.numberData.number
 });
 
 // dispatch 함수를 props로 반환

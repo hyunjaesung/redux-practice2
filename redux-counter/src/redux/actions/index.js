@@ -1,7 +1,6 @@
 import * as types from "./ActionTypes";
 
 export const increment = () => {
-  console.log("increment");
   return {
     type: types.INCREMENT
   };
